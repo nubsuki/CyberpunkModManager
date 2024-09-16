@@ -2,8 +2,11 @@
 
 A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficiently.
 
+#Mod Manager
 ![Mod Manager](Assets/CMM.png)
 
+#After Install Some Mods
+![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
 
 ## Features
 
@@ -67,9 +70,6 @@ If any mods fail to install, check `failedmodorder.txt` in the application folde
 
 1. Open `CyberpunkModManager.exe` and click `Uninstall` for the mod you want to remove.
 2. To reinstall a mod, go to the `ModManagerMovedFiles` folder, move the mod back, reopen the application, drag and drop the mod again, and click `Install`.
-
-![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
-
 
 ## Why I Made This
 
