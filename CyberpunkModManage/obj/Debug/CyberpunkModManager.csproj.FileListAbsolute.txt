@@ -1,0 +1,13 @@
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\bin\Debug\CyberpunkModManager.exe.config
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\bin\Debug\CyberpunkModManager.exe
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\bin\Debug\CyberpunkModManager.pdb
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\CyberpunkModManager.csproj.AssemblyReference.cache
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\CyberpunkModManager.Form1.resources
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\CyberpunkModManager.Properties.Resources.resources
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\CyberpunkModManager.csproj.GenerateResource.cache
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\CyberpunkModManager.csproj.CoreCompileInputs.cache
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\Cyberpun.D694B24B.Up2Date
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\CyberpunkModManager.exe
+E:\Desktop\Projects\CyberpunkModManager\CyberpunkModManage\obj\Debug\CyberpunkModManager.pdb
