@@ -68,6 +68,9 @@ If any mods fail to install, check `failedmodorder.txt` in the application folde
 1. Open `CyberpunkModManager.exe` and click `Uninstall` for the mod you want to remove.
 2. To reinstall a mod, go to the `ModManagerMovedFiles` folder, move the mod back, reopen the application, drag and drop the mod again, and click `Install`.
 
+![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
+
+
 ## Why I Made This
 
 I built this mod manager because every time a game update drops, mods tend to break, and I used to manually remove each mod. While there are probably better alternatives out there, I wanted to create my own solution—and why not give it a try?
@@ -77,9 +80,6 @@ I built this mod manager because every time a game update drops, mods tend to br
 - After reopening the application, installed mods may show a "moving error." Don’t worry, it still works.
 - If a mod has a duplicate name in the mod order, it may show as "not installed," but the mod installs correctly.
 - After completing a mod order installation, mods may still appear as installed. Restarting the mod manager should fix this.
-
-
-![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
 
 
 ## License
