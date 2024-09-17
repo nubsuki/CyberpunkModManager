@@ -4,7 +4,7 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 ## Mod Manager
 
-![Mod Manager](Assets/CMM.png)
+![Mod Manager](Assets/CPMM.png)
 
 ## After Install Some Mods
 
@@ -23,13 +23,9 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 - **Remembers Installed Mods**: Tracks mods installed through the manager.
 
-<<<<<<< HEAD
 - **Uninstall Mods**: Safely uninstall mods while keeping a log of removed files and moves fils to backup folder while keeping a `ModInstalledData.txt` for each mod .
 
 - **Logs**: Logs all Installed files to `Log.json`, Extracted Location to the `extractedFile.json`.
-=======
-- **Uninstall Log**: Logs all Install files to `Log.txt`. While it may leave folders intact, all related files will be removed (e.g., `input_loader.dll`) NOT PERFECT!!!
->>>>>>> ee3c24ea7cd5d0c984523095d7b5b8cc800c0839
 
 - **Drag and Drop Support**: Drag and drop mods into the application for simple installation.
 
