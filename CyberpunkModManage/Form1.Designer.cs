@@ -42,6 +42,7 @@ namespace CyberpunkModManager
             this.openModMovedButton = new System.Windows.Forms.Button();
             this.importModOrderButton = new System.Windows.Forms.Button();
             this.installationProgressBar = new System.Windows.Forms.ProgressBar();
+            this.enableUninstallCheckBox = new System.Windows.Forms.CheckBox(); // Add this line
             this.tableLayoutPanel.SuspendLayout();
             this.buttonPanel.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +80,7 @@ namespace CyberpunkModManager
             this.buttonPanel.Controls.Add(this.openModMovedButton);
             this.buttonPanel.Controls.Add(this.importModOrderButton);
             this.buttonPanel.Controls.Add(this.installationProgressBar);
+            this.buttonPanel.Controls.Add(this.enableUninstallCheckBox); // Add to button panel
             this.buttonPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.buttonPanel.Location = new System.Drawing.Point(3, 3);
@@ -134,6 +136,17 @@ namespace CyberpunkModManager
             this.installationProgressBar.Size = new System.Drawing.Size(237, 30);
             this.installationProgressBar.TabIndex = 4;
             // 
+            // enableUninstallCheckBox
+            // 
+            this.enableUninstallCheckBox.AutoSize = true;
+            this.enableUninstallCheckBox.Location = new System.Drawing.Point(3, 183); // Adjust position as needed
+            this.enableUninstallCheckBox.Name = "enableUninstallCheckBox";
+            this.enableUninstallCheckBox.Size = new System.Drawing.Size(237, 17);
+            this.enableUninstallCheckBox.TabIndex = 6; // Update tab index
+            this.enableUninstallCheckBox.Text = "Enable Uninstall Buttons (Do at your own risk)";
+            this.enableUninstallCheckBox.UseVisualStyleBackColor = true;
+            this.enableUninstallCheckBox.CheckedChanged += new System.EventHandler(this.EnableUninstallCheckBox_CheckedChanged); // Add event handler
+            // 
             // Form1
             // 
             this.BackColor = System.Drawing.SystemColors.Control;
@@ -158,6 +171,7 @@ namespace CyberpunkModManager
         private System.Windows.Forms.Button openModMovedButton;
         private System.Windows.Forms.Button importModOrderButton;
         private System.Windows.Forms.ProgressBar installationProgressBar;
+        private System.Windows.Forms.CheckBox enableUninstallCheckBox; // Add this line
         #endregion
     }
 }

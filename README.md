@@ -2,7 +2,12 @@
 
 A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficiently.
 
+## Mod Manager
 ![Mod Manager](Assets/CMM.png)
+
+## After Install Some Mods
+
+![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
 
 
 ## Features
@@ -20,7 +25,7 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 - **Uninstall Mods**: Safely uninstall mods while keeping a log of removed files.
 
-- **Uninstall Log**: Logs all removed files to `Log.txt`. While it may leave folders intact, all related files will be removed (e.g., `input_loader.dll`).
+- **Uninstall Log**: Logs all removed files to `Log.txt`. While it may leave folders intact, all related files will be removed (e.g., `input_loader.dll`) NOT PERFECT!!!
 
 - **Drag and Drop Support**: Drag and drop mods into the application for simple installation.
 
@@ -65,6 +70,16 @@ If any mods fail to install, check `failedmodorder.txt` in the application folde
 
 ## Uninstalling Mods
 
+**Warning: Uninstalling Mods May Break Your Game**
+
+Uninstalling mods using this tool is designed to keep a log of installed files. However, it may not always perfectly remove every related file and could potentially disrupt your game. If you’re experienced and know what you're doing, you can review the log files and manually edit them if needed. Even then, I do not recommend uninstalling mods through this tool due to potential risks.
+
+**Recommended Approach:**
+
+- **Consult Mod Developers:** Many mod developers provide specific instructions for uninstalling their mods. Use these instructions as your guide to safely uninstall or remove mods.
+
+**Steps to Uninstall a Mod:**
+
 1. Open `CyberpunkModManager.exe` and click `Uninstall` for the mod you want to remove.
 2. To reinstall a mod, go to the `ModManagerMovedFiles` folder, move the mod back, reopen the application, drag and drop the mod again, and click `Install`.
 
@@ -77,9 +92,6 @@ I built this mod manager because every time a game update drops, mods tend to br
 - After reopening the application, installed mods may show a "moving error." Don’t worry, it still works.
 - If a mod has a duplicate name in the mod order, it may show as "not installed," but the mod installs correctly.
 - After completing a mod order installation, mods may still appear as installed. Restarting the mod manager should fix this.
-
-
-![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
 
 
 ## License

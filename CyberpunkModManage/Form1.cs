@@ -29,6 +29,7 @@ namespace CyberpunkModManager
         private const string gameRootPathFilePath = "gameRootPath.txt"; // Path to save the game root
         private HashSet<string> addedMods = new HashSet<string>(); // To track added mods
         private Label selectedRootFolderLabel; // Label to display the selected game root folder
+        private bool areUninstallButtonsEnabled = false; // Global variable to track uninstall button state
 
         public Form1()
         {
@@ -247,7 +248,7 @@ namespace CyberpunkModManager
                 Button uninstallButton = cardPanel.Controls.OfType<Button>().FirstOrDefault(btn => btn.Text == "Uninstall");
                 if (uninstallButton != null)
                 {
-                    uninstallButton.Enabled = true;
+                    uninstallButton.Enabled = true; // Enable uninstall button after installation
                 }
                 installButton.Text = "Installed";
                 installButton.Enabled = false;
@@ -389,6 +390,12 @@ namespace CyberpunkModManager
 
         private void UninstallMod(Panel cardPanel, Label statusLabel, Button installButton, Button uninstallButton)
         {
+            if (!areUninstallButtonsEnabled) // Check if uninstall buttons are enabled
+            {
+                MessageBox.Show("Uninstall buttons are currently disabled. Please enable them to proceed.");
+                return; // Exit if not enabled
+            }
+
             try
             {
                 if (!File.Exists(logFilePath))
@@ -568,6 +575,30 @@ namespace CyberpunkModManager
             else
             {
                 MessageBox.Show("All mods installed successfully.");
+            }
+        }
+
+        private void EnableUninstallCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            areUninstallButtonsEnabled = enableUninstallCheckBox.Checked; // Update the global variable based on checkbox state
+
+            foreach (Panel panel in flowLayoutPanelModCards.Controls.OfType<Panel>())
+            {
+                Button uninstallButton = panel.Controls.OfType<Button>().FirstOrDefault(btn => btn.Text == "Uninstall");
+                if (uninstallButton != null)
+                {
+                    uninstallButton.Enabled = areUninstallButtonsEnabled; // Enable or disable based on the checkbox state
+                }
+            }
+
+            // Provide feedback to the user
+            if (areUninstallButtonsEnabled)
+            {
+                MessageBox.Show("Uninstall buttons have been enabled.");
+            }
+            else
+            {
+                MessageBox.Show("Uninstall buttons have been disabled.");
             }
         }
     }
