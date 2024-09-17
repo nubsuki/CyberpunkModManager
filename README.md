@@ -2,6 +2,7 @@
 
 A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficiently.
 
+<<<<<<< HEAD
 ## Mod Manager
 ![Mod Manager](Assets/CMM.png)
 
@@ -9,6 +10,13 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 ![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
 
+=======
+#Mod Manager
+![Mod Manager](Assets/CMM.png)
+
+#After Install Some Mods
+![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
+>>>>>>> 9337b590a369ffd79782557a346417039a0317ae
 
 ## Features
 
