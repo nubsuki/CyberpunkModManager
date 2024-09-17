@@ -2,8 +2,8 @@
 
 A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficiently.
 
-<<<<<<< HEAD
 ## Mod Manager
+
 ![Mod Manager](Assets/CMM.png)
 
 ## After Install Some Mods
