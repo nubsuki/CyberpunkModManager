@@ -23,7 +23,7 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 - **Remembers Installed Mods**: Tracks mods installed through the manager.
 
-- **Uninstall Log**: Logs all removed files to `Log.txt`. While it may leave folders intact, all related files will be removed (e.g., `input_loader.dll`) NOT PERFECT!!!
+- **Uninstall Log**: Logs all Install files to `Log.txt`. While it may leave folders intact, all related files will be removed (e.g., `input_loader.dll`) NOT PERFECT!!!
 
 - **Drag and Drop Support**: Drag and drop mods into the application for simple installation.
 
