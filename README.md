@@ -8,7 +8,7 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 ## After Install Some Mods
 
-![Mod Manager After Install Some Mods](Assets/After%20Installing%20some%20mods.png)
+![Mod Manager After Install Some Mods](Assets/AfterInstall.png)
 
 ## Features
 
@@ -23,15 +23,15 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 - **Remembers Installed Mods**: Tracks mods installed through the manager.
 
-- **Uninstall Mods**: Safely uninstall mods while keeping a log of removed files.
+- **Uninstall Mods**: Safely uninstall mods while keeping a log of removed files and moves fils to backup folder while keeping a `ModInstalledData.txt` for each mod .
 
-- **Uninstall Log**: Logs all removed files to `Log.txt`. While it may leave folders intact, all related files will be removed (e.g., `input_loader.dll`) NOT PERFECT!!!
+- **Logs**: Logs all Installed files to `Log.json`, Extracted Location to the `extractedFile.json`.
 
 - **Drag and Drop Support**: Drag and drop mods into the application for simple installation.
 
 ## Download & How It Works
 
-Download the application [here](https://drive.google.com/drive/folders/1Dkg-b74nzwPhBlVNKKUN9NCdZIEuocwb?usp=sharing).
+Download the Cyberpunk2077 Mod Manager [here](https://drive.google.com/drive/folders/1Dkg-b74nzwPhBlVNKKUN9NCdZIEuocwb?usp=sharing).
 
 ### Important Information
 
@@ -72,7 +72,8 @@ If any mods fail to install, check `failedmodorder.txt` in the application folde
 
 **Warning: Uninstalling Mods May Break Your Game**
 
-Uninstalling mods using this tool is designed to keep a log of installed files. However, it may not always perfectly remove every related file and could potentially disrupt your game. If you’re experienced and know what you're doing, you can review the log files and manually edit them if needed. Even then, I do not recommend uninstalling mods through this tool due to potential risks.
+Uninstalling mods using this tool is designed to keep a log of installed files and Remove them according to extraction. However, it may not always perfectly remove every related file and could potentially disrupt your game. If you’re experienced and know what you're doing, you can review the `log.json` and `extractedFile.json` files and manually edit them if needed. 
+
 
 **Recommended Approach:**
 
@@ -80,8 +81,9 @@ Uninstalling mods using this tool is designed to keep a log of installed files. 
 
 **Steps to Uninstall a Mod:**
 
-1. Open `CyberpunkModManager.exe` and click `Uninstall` for the mod you want to remove.
-2. To reinstall a mod, go to the `ModManagerMovedFiles` folder, move the mod back, reopen the application, drag and drop the mod again, and click `Install`.
+1. Open `CyberpunkModManager.exe` and check enable uninstall button and click `Uninstall` for the mod you want to remove.
+2. To reinstall a mod, go to the `ModManagerMovedFiles` folder,drag and drop the mod again, and click `Install`.
+3. If the game break you can always check for mod you unininstall from the backup folder and use `ModInstalledData.txt` to move them back to the root.
 
 ## Why I Made This
 
