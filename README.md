@@ -47,7 +47,7 @@ Download the Cyberpunk2077 Mod Manager [here](https://drive.google.com/drive/fol
 1. **Install WinRAR and 7-Zip**: Ensure both are installed. If not, download them before proceeding.
 2. **Download the Mod Manager**: Get the application from the link above.
 3. **Extract the Files**: Extract the contents to your preferred location (e.g., `E:\Desktop\CyberpunkModManager`).
-4. **Open the Application**: Run `CyberpunkModManager.exe`.
+4. **Open the Application**: Run `CyberpunkModManager.exe` If windows defender promt you with massage go to more info and click Run Anyway.
 5. **Set the Game Root Folder**: Select your Cyberpunk 2077 root folder (e.g., `C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077`) Selected root folder will be shown in the mod manager.
 6. **Drag and Drop Mods**: Drag and drop your mods into the application.
 7. **Install Mods**: Press `Install`. Ensure mods are installed in the correct order.
