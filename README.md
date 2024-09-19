@@ -31,7 +31,12 @@ A simple mod manager made for personal use to manage Cyberpunk 2077 mods efficie
 
 ## Download & How It Works
 
-Download the Cyberpunk2077 Mod Manager [here](https://drive.google.com/drive/folders/1Dkg-b74nzwPhBlVNKKUN9NCdZIEuocwb?usp=sharing).
+### **Download:**
+
+**latest version**
+
+- You can download the Cyberpunk 2077 Mod Manager from the [GitHub Release](https://github.com/nubsuki/CyberpunkModManager/releases).
+- Alternatively [Google Drive link](https://drive.google.com/drive/folders/1Dkg-b74nzwPhBlVNKKUN9NCdZIEuocwb?usp=sharing).
 
 ### Important Information
 
